@@ -3,7 +3,7 @@
 #
 # BOARD         : DE0-Nano-SoC from Terasic
 # Author        : Sahand Kashani-Akhavan from Terasic documentation
-# Revision      : 1.2
+# Revision      : 1.3
 # Creation date : 11/06/2015
 #
 # Syntax Rule : GROUP_NAME_N[bit]
@@ -260,7 +260,7 @@ set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to 
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ODT
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_RAS_N
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_RESET_N
-set_instance_assignment -name IO_STANDARD "1.5 V" -to HPS_DDR3_RZQ
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_RZQ
 set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_WE_N
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_GTX_CLK
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_INT_N
