@@ -3,7 +3,7 @@
 #
 # BOARD         : DE0-Nano from Terasic
 # Author        : Sahand Kashani-Akhavan from Terasic documentation
-# Revision      : 1.3
+# Revision      : 1.4
 # Creation date : 19/06/2015
 #
 # Syntax Rule : GROUP_NAME_N[bit]
@@ -516,92 +516,92 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0_IN_1
 #============================================================
 # GPIO_1, GPIO_1 connect to LT24 - 2.4" LCD and Touch
 #============================================================
-set_location_assignment PIN_R9  -to LT24_ADC_BUSY
-set_location_assignment PIN_J13 -to LT24_ADC_CS_N
-set_location_assignment PIN_T14 -to LT24_ADC_DCLK
-set_location_assignment PIN_T15 -to LT24_ADC_DIN
-set_location_assignment PIN_F13 -to LT24_ADC_DOUT
-set_location_assignment PIN_T9  -to LT24_ADC_PENIRQ_N
-set_location_assignment PIN_N16 -to LT24_CS_N
-set_location_assignment PIN_R12 -to LT24_D[0]
-set_location_assignment PIN_R12 -to LT24_D_0
-set_location_assignment PIN_T12 -to LT24_D[1]
-set_location_assignment PIN_T12 -to LT24_D_1
-set_location_assignment PIN_R13 -to LT24_D[2]
-set_location_assignment PIN_R13 -to LT24_D_2
-set_location_assignment PIN_T13 -to LT24_D[3]
-set_location_assignment PIN_T13 -to LT24_D_3
-set_location_assignment PIN_R10 -to LT24_D[4]
-set_location_assignment PIN_R10 -to LT24_D_4
-set_location_assignment PIN_N12 -to LT24_D[5]
-set_location_assignment PIN_N12 -to LT24_D_5
-set_location_assignment PIN_P9  -to LT24_D[6]
-set_location_assignment PIN_P9  -to LT24_D_6
-set_location_assignment PIN_N9  -to LT24_D[7]
-set_location_assignment PIN_N9  -to LT24_D_7
-set_location_assignment PIN_N11 -to LT24_D[8]
-set_location_assignment PIN_N11 -to LT24_D_8
-set_location_assignment PIN_L16 -to LT24_D[9]
-set_location_assignment PIN_L16 -to LT24_D_9
-set_location_assignment PIN_K16 -to LT24_D[10]
-set_location_assignment PIN_K16 -to LT24_D_10
-set_location_assignment PIN_R16 -to LT24_D[11]
-set_location_assignment PIN_R16 -to LT24_D_11
-set_location_assignment PIN_L15 -to LT24_D[12]
-set_location_assignment PIN_L15 -to LT24_D_12
-set_location_assignment PIN_P15 -to LT24_D[13]
-set_location_assignment PIN_P15 -to LT24_D_13
-set_location_assignment PIN_P16 -to LT24_D[14]
-set_location_assignment PIN_P16 -to LT24_D_14
-set_location_assignment PIN_R14 -to LT24_D[15]
-set_location_assignment PIN_R14 -to LT24_D_15
-set_location_assignment PIN_J14 -to LT24_LCD_ON
-set_location_assignment PIN_T10 -to LT24_RD_N
-set_location_assignment PIN_K15 -to LT24_RESET_N
-set_location_assignment PIN_P11 -to LT24_RS
-set_location_assignment PIN_R11 -to LT24_WR_N
+set_location_assignment PIN_R9  -to GPIO_1_LT24_ADC_BUSY
+set_location_assignment PIN_J13 -to GPIO_1_LT24_ADC_CS_N
+set_location_assignment PIN_T14 -to GPIO_1_LT24_ADC_DCLK
+set_location_assignment PIN_T15 -to GPIO_1_LT24_ADC_DIN
+set_location_assignment PIN_F13 -to GPIO_1_LT24_ADC_DOUT
+set_location_assignment PIN_T9  -to GPIO_1_LT24_ADC_PENIRQ_N
+set_location_assignment PIN_N16 -to GPIO_1_LT24_CS_N
+set_location_assignment PIN_R12 -to GPIO_1_LT24_D[0]
+set_location_assignment PIN_R12 -to GPIO_1_LT24_D_0
+set_location_assignment PIN_T12 -to GPIO_1_LT24_D[1]
+set_location_assignment PIN_T12 -to GPIO_1_LT24_D_1
+set_location_assignment PIN_R13 -to GPIO_1_LT24_D[2]
+set_location_assignment PIN_R13 -to GPIO_1_LT24_D_2
+set_location_assignment PIN_T13 -to GPIO_1_LT24_D[3]
+set_location_assignment PIN_T13 -to GPIO_1_LT24_D_3
+set_location_assignment PIN_R10 -to GPIO_1_LT24_D[4]
+set_location_assignment PIN_R10 -to GPIO_1_LT24_D_4
+set_location_assignment PIN_N12 -to GPIO_1_LT24_D[5]
+set_location_assignment PIN_N12 -to GPIO_1_LT24_D_5
+set_location_assignment PIN_P9  -to GPIO_1_LT24_D[6]
+set_location_assignment PIN_P9  -to GPIO_1_LT24_D_6
+set_location_assignment PIN_N9  -to GPIO_1_LT24_D[7]
+set_location_assignment PIN_N9  -to GPIO_1_LT24_D_7
+set_location_assignment PIN_N11 -to GPIO_1_LT24_D[8]
+set_location_assignment PIN_N11 -to GPIO_1_LT24_D_8
+set_location_assignment PIN_L16 -to GPIO_1_LT24_D[9]
+set_location_assignment PIN_L16 -to GPIO_1_LT24_D_9
+set_location_assignment PIN_K16 -to GPIO_1_LT24_D[10]
+set_location_assignment PIN_K16 -to GPIO_1_LT24_D_10
+set_location_assignment PIN_R16 -to GPIO_1_LT24_D[11]
+set_location_assignment PIN_R16 -to GPIO_1_LT24_D_11
+set_location_assignment PIN_L15 -to GPIO_1_LT24_D[12]
+set_location_assignment PIN_L15 -to GPIO_1_LT24_D_12
+set_location_assignment PIN_P15 -to GPIO_1_LT24_D[13]
+set_location_assignment PIN_P15 -to GPIO_1_LT24_D_13
+set_location_assignment PIN_P16 -to GPIO_1_LT24_D[14]
+set_location_assignment PIN_P16 -to GPIO_1_LT24_D_14
+set_location_assignment PIN_R14 -to GPIO_1_LT24_D[15]
+set_location_assignment PIN_R14 -to GPIO_1_LT24_D_15
+set_location_assignment PIN_J14 -to GPIO_1_LT24_LCD_ON
+set_location_assignment PIN_T10 -to GPIO_1_LT24_RD_N
+set_location_assignment PIN_K15 -to GPIO_1_LT24_RESET_N
+set_location_assignment PIN_P11 -to GPIO_1_LT24_RS
+set_location_assignment PIN_R11 -to GPIO_1_LT24_WR_N
 
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_ADC_BUSY
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_ADC_CS_N
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_ADC_DCLK
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_ADC_DIN
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_ADC_DOUT
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_ADC_PENIRQ_N
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_CS_N
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[0]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_0
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[1]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_1
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[2]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_2
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[3]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_3
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[4]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_4
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[5]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_5
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[6]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_6
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[7]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_7
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[8]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_8
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[9]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_9
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[10]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_10
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[11]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_11
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[12]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_12
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[13]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_13
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[14]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_14
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D[15]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_D_15
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_LCD_ON
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_RD_N
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_RESET_N
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_RS
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LT24_WR_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_ADC_BUSY
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_ADC_CS_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_ADC_DCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_ADC_DIN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_ADC_DOUT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_ADC_PENIRQ_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_CS_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_0
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_3
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_4
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_5
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_6
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_7
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_8
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_9
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_10
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_11
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_12
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_13
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_14
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_D_15
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_LCD_ON
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_RD_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_RESET_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_RS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_LT24_WR_N
