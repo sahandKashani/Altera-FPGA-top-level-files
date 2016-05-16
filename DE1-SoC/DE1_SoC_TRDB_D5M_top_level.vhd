@@ -3,7 +3,7 @@
 --
 -- BOARD         : DE1-SoC from Terasic
 -- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.3
+-- Revision      : 1.4
 -- Creation date : 04/02/2015
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
@@ -101,16 +101,16 @@ entity DE1_SoC_top_level is
         VGA_VS           : out   std_logic;
 
         -- GPIO_0
-        D5M_D            : in    std_logic_vector(11 downto 0);
-        D5M_FVAL         : in    std_logic;
-        D5M_LVAL         : in    std_logic;
-        D5M_PIXCLK       : in    std_logic;
-        D5M_RESET_N      : out   std_logic;
-        D5M_SCLK         : out   std_logic;
-        D5M_SDATA        : inout std_logic;
-        D5M_STROBE       : in    std_logic;
-        D5M_TRIGGER      : out   std_logic;
-        D5M_XCLKIN       : out   std_logic;
+        GPIO_0_D5M_D            : in    std_logic_vector(11 downto 0);
+        GPIO_0_D5M_FVAL         : in    std_logic;
+        GPIO_0_D5M_LVAL         : in    std_logic;
+        GPIO_0_D5M_PIXCLK       : in    std_logic;
+        GPIO_0_D5M_RESET_N      : out   std_logic;
+        GPIO_0_D5M_SCLK         : inout std_logic;
+        GPIO_0_D5M_SDATA        : inout std_logic;
+        GPIO_0_D5M_STROBE       : in    std_logic;
+        GPIO_0_D5M_TRIGGER      : out   std_logic;
+        GPIO_0_D5M_XCLKIN       : out   std_logic;
 
         -- GPIO_1
         GPIO_1           : inout std_logic_vector(35 downto 0);

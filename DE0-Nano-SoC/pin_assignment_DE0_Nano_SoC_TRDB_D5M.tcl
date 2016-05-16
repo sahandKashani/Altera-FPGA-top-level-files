@@ -3,7 +3,7 @@
 #
 # BOARD         : DE0-Nano-SoC from Terasic
 # Author        : Sahand Kashani-Akhavan from Terasic documentation
-# Revision      : 1.3
+# Revision      : 1.4
 # Creation date : 11/06/2015
 #
 # Syntax Rule : GROUP_NAME_N[bit]
@@ -553,70 +553,70 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0_35
 #============================================================
 # GPIO_1, GPIO connect to D5M - 5M Pixel Camera
 #============================================================
-set_location_assignment PIN_AG18 -to D5M_D[0]
-set_location_assignment PIN_AG18 -to D5M_D_0
-set_location_assignment PIN_AC23 -to D5M_D[1]
-set_location_assignment PIN_AC23 -to D5M_D_1
-set_location_assignment PIN_AF20 -to D5M_D[2]
-set_location_assignment PIN_AF20 -to D5M_D_2
-set_location_assignment PIN_AG19 -to D5M_D[3]
-set_location_assignment PIN_AG19 -to D5M_D_3
-set_location_assignment PIN_AG20 -to D5M_D[4]
-set_location_assignment PIN_AG20 -to D5M_D_4
-set_location_assignment PIN_AF21 -to D5M_D[5]
-set_location_assignment PIN_AF21 -to D5M_D_5
-set_location_assignment PIN_AE22 -to D5M_D[6]
-set_location_assignment PIN_AE22 -to D5M_D_6
-set_location_assignment PIN_AF23 -to D5M_D[7]
-set_location_assignment PIN_AF23 -to D5M_D_7
-set_location_assignment PIN_AH24 -to D5M_D[8]
-set_location_assignment PIN_AH24 -to D5M_D_8
-set_location_assignment PIN_AG26 -to D5M_D[9]
-set_location_assignment PIN_AG26 -to D5M_D_9
-set_location_assignment PIN_AH27 -to D5M_D[10]
-set_location_assignment PIN_AH27 -to D5M_D_10
-set_location_assignment PIN_AG28 -to D5M_D[11]
-set_location_assignment PIN_AG28 -to D5M_D_11
-set_location_assignment PIN_AD19 -to D5M_FVAL
-set_location_assignment PIN_AF18 -to D5M_LVAL
-set_location_assignment PIN_Y15  -to D5M_PIXCLK
-set_location_assignment PIN_AF25 -to D5M_RESET_N
-set_location_assignment PIN_AE24 -to D5M_SCLK
-set_location_assignment PIN_AE20 -to D5M_SDATA
-set_location_assignment PIN_AE19 -to D5M_STROBE
-set_location_assignment PIN_AG23 -to D5M_TRIGGER
-set_location_assignment PIN_AG24 -to D5M_XCLKIN
+set_location_assignment PIN_AG18 -to GPIO_1_D5M_D[0]
+set_location_assignment PIN_AG18 -to GPIO_1_D5M_D_0
+set_location_assignment PIN_AC23 -to GPIO_1_D5M_D[1]
+set_location_assignment PIN_AC23 -to GPIO_1_D5M_D_1
+set_location_assignment PIN_AF20 -to GPIO_1_D5M_D[2]
+set_location_assignment PIN_AF20 -to GPIO_1_D5M_D_2
+set_location_assignment PIN_AG19 -to GPIO_1_D5M_D[3]
+set_location_assignment PIN_AG19 -to GPIO_1_D5M_D_3
+set_location_assignment PIN_AG20 -to GPIO_1_D5M_D[4]
+set_location_assignment PIN_AG20 -to GPIO_1_D5M_D_4
+set_location_assignment PIN_AF21 -to GPIO_1_D5M_D[5]
+set_location_assignment PIN_AF21 -to GPIO_1_D5M_D_5
+set_location_assignment PIN_AE22 -to GPIO_1_D5M_D[6]
+set_location_assignment PIN_AE22 -to GPIO_1_D5M_D_6
+set_location_assignment PIN_AF23 -to GPIO_1_D5M_D[7]
+set_location_assignment PIN_AF23 -to GPIO_1_D5M_D_7
+set_location_assignment PIN_AH24 -to GPIO_1_D5M_D[8]
+set_location_assignment PIN_AH24 -to GPIO_1_D5M_D_8
+set_location_assignment PIN_AG26 -to GPIO_1_D5M_D[9]
+set_location_assignment PIN_AG26 -to GPIO_1_D5M_D_9
+set_location_assignment PIN_AH27 -to GPIO_1_D5M_D[10]
+set_location_assignment PIN_AH27 -to GPIO_1_D5M_D_10
+set_location_assignment PIN_AG28 -to GPIO_1_D5M_D[11]
+set_location_assignment PIN_AG28 -to GPIO_1_D5M_D_11
+set_location_assignment PIN_AD19 -to GPIO_1_D5M_FVAL
+set_location_assignment PIN_AF18 -to GPIO_1_D5M_LVAL
+set_location_assignment PIN_Y15  -to GPIO_1_D5M_PIXCLK
+set_location_assignment PIN_AF25 -to GPIO_1_D5M_RESET_N
+set_location_assignment PIN_AE24 -to GPIO_1_D5M_SCLK
+set_location_assignment PIN_AE20 -to GPIO_1_D5M_SDATA
+set_location_assignment PIN_AE19 -to GPIO_1_D5M_STROBE
+set_location_assignment PIN_AG23 -to GPIO_1_D5M_TRIGGER
+set_location_assignment PIN_AG24 -to GPIO_1_D5M_XCLKIN
 
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[0]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_0
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[1]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_1
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[2]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_2
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[3]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_3
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[4]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_4
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[5]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_5
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[6]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_6
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[7]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_7
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[8]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_8
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[9]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_9
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[10]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_10
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D[11]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_D_11
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_FVAL
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_LVAL
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_PIXCLK
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_RESET_N
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_SCLK
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_SDATA
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_STROBE
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_TRIGGER
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to D5M_XCLKIN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_0
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_3
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_4
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_5
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_6
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_7
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_8
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_9
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_10
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_D_11
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_FVAL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_LVAL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_PIXCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_RESET_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_SCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_SDATA
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_STROBE
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_TRIGGER
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D5M_XCLKIN
