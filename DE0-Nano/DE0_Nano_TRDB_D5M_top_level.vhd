@@ -3,7 +3,7 @@
 --
 -- BOARD         : DE0-Nano from Terasic
 -- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.2
+-- Revision      : 1.3
 -- Creation date : 21/06/2015
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
@@ -17,7 +17,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity DE0_Nano_top_level is
+entity DE0_Nano_TRDB_D5M_top_level is
     port(
         -- CLOCK
         CLOCK_50           : in    std_logic;
@@ -82,9 +82,9 @@ entity DE0_Nano_top_level is
         GPIO_1_IN          : in    std_logic_vector(1 downto 0)
     );
 
-end entity DE0_Nano_top_level;
+end entity DE0_Nano_TRDB_D5M_top_level;
 
-architecture rtl of DE0_Nano_top_level is
+architecture rtl of DE0_Nano_TRDB_D5M_top_level is
 
 begin
 

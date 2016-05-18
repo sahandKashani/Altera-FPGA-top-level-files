@@ -3,7 +3,7 @@
 --
 -- BOARD         : DE0-Nano-SoC from Terasic
 -- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.1
+-- Revision      : 1.2
 -- Creation date : 11/06/2015
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
@@ -17,7 +17,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity DE0_Nano_SoC_top_level is
+entity DE0_Nano_SoC_LT24_top_level is
     port(
         -- ADC
         ADC_CONVST               : out   std_logic;
@@ -111,9 +111,9 @@ entity DE0_Nano_SoC_top_level is
         HPS_USB_NXT              : in    std_logic;
         HPS_USB_STP              : out   std_logic
     );
-end entity DE0_Nano_SoC_top_level;
+end entity DE0_Nano_SoC_LT24_top_level;
 
-architecture rtl of DE0_Nano_SoC_top_level is
+architecture rtl of DE0_Nano_SoC_LT24_top_level is
 
 begin
 

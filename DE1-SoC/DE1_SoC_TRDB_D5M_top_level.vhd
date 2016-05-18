@@ -3,7 +3,7 @@
 --
 -- BOARD         : DE1-SoC from Terasic
 -- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.4
+-- Revision      : 1.5
 -- Creation date : 04/02/2015
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
@@ -17,7 +17,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity DE1_SoC_top_level is
+entity DE1_SoC_TRDB_D5M_top_level is
     port(
         -- ADC
         ADC_CS_n         : out   std_logic;
@@ -169,9 +169,9 @@ entity DE1_SoC_top_level is
         HPS_USB_NXT      : in    std_logic;
         HPS_USB_STP      : out   std_logic
     );
-end entity DE1_SoC_top_level;
+end entity DE1_SoC_TRDB_D5M_top_level;
 
-architecture rtl of DE1_SoC_top_level is
+architecture rtl of DE1_SoC_TRDB_D5M_top_level is
 
 begin
 
