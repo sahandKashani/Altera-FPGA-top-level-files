@@ -3,7 +3,7 @@
 --
 -- BOARD         : DE1-SoC from Terasic
 -- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.2
+-- Revision      : 1.3
 -- Creation date : 04/02/2015
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
@@ -148,7 +148,6 @@ entity DE1_SoC_LT24_top_level is
         HPS_FLASH_DATA           : inout std_logic_vector(3 downto 0);
         HPS_FLASH_DCLK           : out   std_logic;
         HPS_FLASH_NCSO           : out   std_logic;
-        HPS_GPIO                 : inout std_logic_vector(1 downto 0);
         HPS_GSENSOR_INT          : inout std_logic;
         HPS_I2C_CONTROL          : inout std_logic;
         HPS_I2C1_SCLK            : inout std_logic;
@@ -157,6 +156,7 @@ entity DE1_SoC_LT24_top_level is
         HPS_I2C2_SDAT            : inout std_logic;
         HPS_KEY_N                : inout std_logic;
         HPS_LED                  : inout std_logic;
+        HPS_LTC_GPIO             : inout std_logic;
         HPS_SD_CLK               : out   std_logic;
         HPS_SD_CMD               : inout std_logic;
         HPS_SD_DATA              : inout std_logic_vector(3 downto 0);
