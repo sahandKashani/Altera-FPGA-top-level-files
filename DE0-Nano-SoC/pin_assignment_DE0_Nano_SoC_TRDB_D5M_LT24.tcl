@@ -3,7 +3,7 @@
 #
 # BOARD         : DE0-Nano-SoC from Terasic
 # Author        : Sahand Kashani-Akhavan from Terasic documentation
-# Revision      : 1.4
+# Revision      : 1.5
 # Creation date : 11/06/2015
 #
 # Syntax Rule : GROUP_NAME_N[bit]
@@ -331,17 +331,17 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_NXT
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_STP
 
 #============================================================
-# KEY
+# KEY_N
 #============================================================
-set_location_assignment PIN_AH17 -to KEY[0]
-set_location_assignment PIN_AH17 -to KEY_0
-set_location_assignment PIN_AH16 -to KEY[1]
-set_location_assignment PIN_AH16 -to KEY_1
+set_location_assignment PIN_AH17 -to KEY_N[0]
+set_location_assignment PIN_AH17 -to KEY_N_0
+set_location_assignment PIN_AH16 -to KEY_N[1]
+set_location_assignment PIN_AH16 -to KEY_N_1
 
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY_0
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY_1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY_N[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY_N_0
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY_N[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY_N_1
 
 #============================================================
 # LED
