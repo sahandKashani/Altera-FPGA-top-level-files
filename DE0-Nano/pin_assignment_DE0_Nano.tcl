@@ -3,7 +3,7 @@
 #
 # BOARD         : DE0-Nano from Terasic
 # Author        : Sahand Kashani-Akhavan from Terasic documentation
-# Revision      : 1.3
+# Revision      : 1.4
 # Creation date : 19/06/2015
 #
 # Syntax Rule : GROUP_NAME_N[bit]

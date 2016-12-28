@@ -3,7 +3,7 @@
 --
 -- BOARD         : DE1-SoC from Terasic
 -- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.4
+-- Revision      : 1.5
 -- Creation date : 04/02/2015
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
