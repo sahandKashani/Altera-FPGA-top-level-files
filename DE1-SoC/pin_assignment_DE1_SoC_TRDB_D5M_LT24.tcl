@@ -1,10 +1,11 @@
 ###############################################################################
 # pin_assignment_DE1_SoC_TRDB_D5M_LT24.tcl
+# ========================================
 #
-# BOARD         : DE1-SoC from Terasic
-# Author        : Sahand Kashani-Akhavan from Terasic documentation
-# Revision      : 1.6
-# Creation date : 04/02/2015
+# BOARD : DE1-SoC from Terasic
+# Author : Sahand Kashani-Akhavan from Terasic documentation
+# Revision : 1.7
+# Last updated : 2017-06-09 19:29:39 UTC
 #
 # Syntax Rule : GROUP_NAME_N[bit]
 #

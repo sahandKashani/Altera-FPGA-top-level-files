@@ -1,10 +1,11 @@
 ###############################################################################
 # pin_assignment_DE0_Nano_SoC_TRDB_D5M_LT24.tcl
+# =============================================
 #
-# BOARD         : DE0-Nano-SoC from Terasic
-# Author        : Sahand Kashani-Akhavan from Terasic documentation
-# Revision      : 1.7
-# Creation date : 11/06/2015
+# BOARD : DE0-Nano-SoC from Terasic
+# Author : Sahand Kashani-Akhavan from Terasic documentation
+# Revision : 1.8
+# Last updated : 2017-06-09 19:29:39 UTC
 #
 # Syntax Rule : GROUP_NAME_N[bit]
 #

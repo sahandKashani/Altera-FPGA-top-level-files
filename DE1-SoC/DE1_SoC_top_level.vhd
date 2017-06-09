@@ -1,10 +1,11 @@
 -- #############################################################################
 -- DE1_SoC_top_level.vhd
+-- =====================
 --
--- BOARD         : DE1-SoC from Terasic
--- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.5
--- Creation date : 04/02/2015
+-- BOARD : DE1-SoC from Terasic
+-- Author : Sahand Kashani-Akhavan from Terasic documentation
+-- Revision : 1.6
+-- Last updated : 2017-06-09 19:29:39 UTC
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
 --

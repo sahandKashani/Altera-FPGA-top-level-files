@@ -1,10 +1,11 @@
 -- #############################################################################
 -- DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd
+-- ========================================
 --
--- BOARD         : DE0-Nano-SoC from Terasic
--- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.3
--- Creation date : 11/06/2015
+-- BOARD : DE0-Nano-SoC from Terasic
+-- Author : Sahand Kashani-Akhavan from Terasic documentation
+-- Revision : 1.4
+-- Last updated : 2017-06-09 19:29:39 UTC
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
 --

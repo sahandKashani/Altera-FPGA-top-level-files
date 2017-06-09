@@ -1,10 +1,11 @@
 ###############################################################################
 # pin_assignment_DE0_Nano_LT24.tcl
+# ================================
 #
-# BOARD         : DE0-Nano from Terasic
-# Author        : Sahand Kashani-Akhavan from Terasic documentation
-# Revision      : 1.4
-# Creation date : 19/06/2015
+# BOARD : DE0-Nano from Terasic
+# Author : Sahand Kashani-Akhavan from Terasic documentation
+# Revision : 1.5
+# Last updated : 2017-06-09 19:29:39 UTC
 #
 # Syntax Rule : GROUP_NAME_N[bit]
 #

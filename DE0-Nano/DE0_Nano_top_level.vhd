@@ -1,10 +1,11 @@
 -- #############################################################################
 -- DE0_Nano_top_level.vhd
+-- ======================
 --
--- BOARD         : DE0-Nano from Terasic
--- Author        : Sahand Kashani-Akhavan from Terasic documentation
--- Revision      : 1.1
--- Creation date : 21/06/2015
+-- BOARD : DE0-Nano from Terasic
+-- Author : Sahand Kashani-Akhavan from Terasic documentation
+-- Revision : 1.2
+-- Last updated : 2017-06-09 19:29:39 UTC
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
 --
