@@ -4,8 +4,8 @@
 --
 -- BOARD : DE0-Nano-SoC from Terasic
 -- Author : Sahand Kashani-Akhavan from Terasic documentation
--- Revision : 1.2
--- Last updated : 2017-06-09 19:29:39 UTC
+-- Revision : 1.3
+-- Last updated : 2017-06-11 12:48:26 UTC
 --
 -- Syntax Rule : GROUP_NAME_N[bit]
 --
@@ -21,34 +21,34 @@ use ieee.std_logic_1164.all;
 entity DE0_Nano_SoC_top_level is
     port(
         -- ADC
-        ADC_CONVST       : out   std_logic;
-        ADC_SCK          : out   std_logic;
-        ADC_SDI          : out   std_logic;
-        ADC_SDO          : in    std_logic;
+        ADC_CONVST : out std_logic;
+        ADC_SCK    : out std_logic;
+        ADC_SDI    : out std_logic;
+        ADC_SDO    : in  std_logic;
 
         -- ARDUINO
-        ARDUINO_IO       : inout std_logic_vector(15 downto 0);
-        ARDUINO_RESET_N  : inout std_logic;
+        ARDUINO_IO      : inout std_logic_vector(15 downto 0);
+        ARDUINO_RESET_N : inout std_logic;
 
         -- CLOCK
-        FPGA_CLK1_50     : in    std_logic;
-        FPGA_CLK2_50     : in    std_logic;
-        FPGA_CLK3_50     : in    std_logic;
+        FPGA_CLK1_50 : in std_logic;
+        FPGA_CLK2_50 : in std_logic;
+        FPGA_CLK3_50 : in std_logic;
 
         -- KEY
-        KEY_N            : in    std_logic_vector(1 downto 0);
+        KEY_N : in std_logic_vector(1 downto 0);
 
         -- LED
-        LED              : out   std_logic_vector(7 downto 0);
+        LED : out std_logic_vector(7 downto 0);
 
         -- SW
-        SW               : in    std_logic_vector(3 downto 0);
+        SW : in std_logic_vector(3 downto 0);
 
         -- GPIO_0
-        GPIO_0           : inout std_logic_vector(35 downto 0);
+        GPIO_0 : inout std_logic_vector(35 downto 0);
 
         -- GPIO_1
-        GPIO_1           : inout std_logic_vector(35 downto 0);
+        GPIO_1 : inout std_logic_vector(35 downto 0);
 
         -- HPS
         HPS_CONV_USB_N   : inout std_logic;
